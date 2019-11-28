@@ -1,0 +1,66 @@
+/*CSS*/
+body {
+   width: 80%;
+   margin: auto;
+   position: relative;
+}
+
+.carousel-inner {
+   height: 450px !important;
+}
+
+.carousel-item {
+	width: 100%;
+	height: 100%;
+}
+.carousel-item img {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   width: 50px;
+   height: 50px;
+   background-color: #007bff !important;
+   color: #007bff !important;
+}
+.navbar-brand {
+    font-family: Calibri;
+    font-style: italic;
+  	 font-weight: 900;
+}
+
+blockquote {
+	width: 100% !important;
+}
+
+.scrollspy-example {
+   position: relative;
+   height: 600px;
+   margin-top: .5rem;
+   overflow: auto;
+   overflow-x: auto;
+   overflow-y: auto;
+}
+.list-group {
+   display: flex;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   padding-left: 0;
+   margin-bottom: 0;
+}
+.list-group li {
+   list-style-type: none;
+}
+.contact-box {
+   margin: auto;
+   width: 75%;
+}
+.contact-message h3 {
+   margin-top: 30px;
+   padding-top: 15px;
+}
+.controls .email-message {
+   width: 80%;
+}
